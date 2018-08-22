@@ -37,7 +37,7 @@ public class ControllerTest {
         this.mockMvc.perform(get("/api/v1/ping"))
         			.andDo(print())
         			.andExpect(status().isOk())
-        			.andExpect(content().string(containsString("pongsss")));
+        			.andExpect(content().string(containsString("pongdddd")));
     }
 //	@Test
 //    public void contexLoads() throws Exception {
